@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TheMovieApp</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_discover">Discover</string>
+    <string name="best_popular_films_and_movies_lbl">Best Popular Films And Serials</string>
+    <string name="lbl_check_movie_show_times">Check Movie\nShowtimes</string>
+    <string name="lbl_see_more"><u>SEE MORE</u></string>
+    <string name="lbl_more_showcases"><u>MORE SHOWCASES</u></string>
+    <string name="lbl_showcases">SHOWCASES</string>
+    <string name="lbl_15_december_2016">15 December 2016</string>
+    <string name="lbl_passenger">Passenger</string>
+    <string name="lbl_best_actor">Best Actor</string>
+    <string name="lbl_more_actors"><u>More Actors</u></string>
+    <string name="lbl_story_line">Story Line</string>
+    <string name="description_story_line">Lured to a Japan he hasn\'t seen since World War II, century-old mutant Wolverine (Hugh Jackman) finds himself in a shadowy realm of yakuza and samurai. Wolverine is pushed to his physical and emotional brink when he is forced to go on the run with a powerful industrialist\'s daughter (Tao Okamoto) and is confronted -- for the first time -- with the prospect of death. As he struggles to rediscover the hero within himself, he must grapple with powerful foes and the ghosts of his own haunted past.</string>
+    <string name="lbl_rate_movie">Rate Movie</string>
+    <string name="lbl_play_trailer">Play Trailer</string>
+    <string name="lbl_actors">ACTORS</string>
+    <string name="lbl_creators">CREATORS</string>
+    <string name="lbl_more_creators"><u>MORE CREATORS</u></string>
+    <string name="lbl_original_title">Original Title: </string>
+    <string name="lbl_type">Type: </string>
+    <string name="lbl_production">Production: </string>
+    <string name="lbl_premiere">Premiere: </string>
+    <string name="lbl_description">Description: </string>
+    <string name="lbl_about_film">ABOUT FILM</string>
+</resources>

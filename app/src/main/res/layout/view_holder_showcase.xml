@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/width_showcase"
+    android:layout_marginStart="@dimen/margin_medium2"
+    android:layout_height="@dimen/height_showcase">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivShowcase"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/placeholder_wolveorine_bannar" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPlay"
+        style="@style/Widget.Material3.Button.Icon"
+        android:layout_width="@dimen/margin_xxlarge"
+        android:layout_height="@dimen/margin_xxlarge"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        android:backgroundTint="@color/colorAccent"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:icon="@drawable/ic_baseline_play_arrow_black_24dp"
+        app:iconPadding="0dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvShowcasesMovieDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:elevation="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium2"
+        android:layout_marginBottom="@dimen/margin_medium2"
+        android:text="@string/lbl_15_december_2016"
+        android:textAllCaps="true"
+        android:textColor="@color/colorSecondaryText"
+        android:textStyle="bold" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvShowcasesMovieName"
+        android:layout_alignStart="@+id/tvShowcasesMovieDate"
+        android:layout_above="@+id/tvShowcasesMovieDate"
+        android:text="@string/lbl_passenger"
+        android:textColor="@color/white"
+        android:elevation="@dimen/margin_medium"
+        android:textSize="@dimen/text_regular_2x"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:elevation="@dimen/margin_small"
+        android:layout_width="match_parent"
+        android:background="@color/opacity_10"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
